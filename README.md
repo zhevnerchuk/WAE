@@ -18,3 +18,11 @@ Team:
  - Ivan Barabanau
  - Albert Matveev 
  - Anton Zhevnerchuk
+
+
+Experiments pipeline:
+
+1. Implement WAE from the original paper by [Tolstikhin et al.](https://openreview.net/pdf?id=HkL7n1-0b). IMPORTANT: our implementation should accept function computing divergence as input (it is essential for all possible extensions).
+2. Try different divergencies on the commonly used datasets (MNIST, CELEBA, etc.), compare results. Possible divergencies to try can be taken from [Wikipedia](https://en.wikipedia.org/wiki/Divergence_(statistics)#Examples).
+3. Apply WAE to the problem of points clouds compressing and generating.
+
